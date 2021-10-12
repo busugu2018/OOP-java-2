@@ -18,6 +18,16 @@ public class Store {
 		Store cookieShop = new Store("cookies", 12, 3.75);
 		System.out.println("Our first shop sells " + lemonadeStand.productType + " at " + lemonadeStand.inventoryPrice + " per unit.");	    
 	    System.out.println("Our second shop has " + cookieShop.inventoryCount + " units remaining. G");
+	    
+	    
+	    
+	    Scanner input = new Scanner (System.in);
+	    System.out.print("Input your first name: ");
+	    String fname = input.next();
+	    System.out.print("Input your last name: ");
+	    String lname = input.next();
+	    System.out.println();
+	    System.out.println("Hello \n"+fname+" "+lname);
 	}
 	
 }
